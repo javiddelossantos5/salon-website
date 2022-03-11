@@ -296,18 +296,17 @@
   text-align: center;
 }
 
-.why-text h4{
+.why-text h4 {
   font-size: 24px;
   margin-bottom: 15px;
   text-align: center;
-
 }
 
-.why-text ul{
+.why-text ul {
   list-style: none;
 }
 
-.why-text li{
+.why-text li {
   padding: 5px 0;
   font-size: 18px;
   text-align: center;
@@ -413,6 +412,60 @@
 
 /* Products End */
 
+/* Before and After Start */
+
+.transformation {
+  margin: 40px 0;
+}
+
+.transformation h2 {
+  font-family: monospace;
+  color: rgb(245, 202, 210);
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.transformation h4 {
+  font-size: 35px;
+  text-align: center;
+  font-weight: 200;
+}
+
+.transformation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 30px auto;
+  flex-wrap: wrap;
+  background-color: rgba(245, 202, 210, 0.698);
+  width: 80%;
+}
+
+.transformation-examples {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  overflow: hidden;
+}
+
+.transformation-container img {
+  max-width: 250px;
+  padding: 10px;
+  max-height: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+  .transformation-container {
+    width: 100%;
+  }
+}
+
+/* Before and After End */
+
 /* Footer Responsive Start */
 
 footer {
@@ -479,7 +532,7 @@ footer {
 }
 
 .socials a:hover i {
-  color: #6DEFEE;
+  color: #6defee;
 }
 
 .footer-bottom {
