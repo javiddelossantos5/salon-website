@@ -462,8 +462,9 @@
 .transformation-container img {
   max-width: 250px;
   width: 50%;
-  padding: 10px;
+  margin: 10px;
   max-height: 300px;
+  box-shadow: 10px 5px 5px grey;
 }
 
 @media only screen and (max-width: 600px) {
@@ -569,3 +570,29 @@ footer {
 }
 
 /* Footer Responsive End */
+
+
+/* Gallery HTML page Start */
+
+/* Gallery Images Start */
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.gallery img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  padding: 10px 10px;
+}
+
+/* Gallery Images End */
+
+/* Gallery HTML page End */
