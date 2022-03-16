@@ -413,6 +413,13 @@
   margin: auto;
 }
 
+@media only screen and (max-width: 600px) {
+  .video-container {
+    padding: 10px 20px;
+    width: 100%;
+  }
+}
+
 /* Video End */
 
 /* Products Start */
